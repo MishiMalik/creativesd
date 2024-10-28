@@ -170,7 +170,7 @@
 }
 
 .animated-button1 {
-    background: linear-gradient(90deg, var(--primary) 0%, rgb(39, 39, 39) 100%);
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary) 100%);
     padding: 15px 30px;
     margin-right: 12px;
     font-weight: 600;
