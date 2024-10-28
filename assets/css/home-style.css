@@ -277,7 +277,7 @@ footer{
 
  
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
     .content-2{
         top: 600px;
     }
@@ -296,5 +296,30 @@ footer{
     }
     .hero-section{
         height: 600px !important; 
+    }
+    .nav-link{
+        font-size: 22px;
+    }
+    .nav-menu ul{
+        padding-left: 0 !important;
+    }
+    .call-btn{
+        width: auto !important;
+    }
+    .heading-tertiary{
+        font-size: 22px !important;
+        text-align: center !important;
+    }
+    .scroll-card{
+        position: relative;
+    }
+    .scroll-card._1,
+    .scroll-card._2,
+    .scroll-card._3{
+        top: 0;
+        margin-top: 25px;
+    }
+    .text{
+        text-align: center;
     }
 }
