@@ -1795,3 +1795,6 @@
         width: 100%;
     }
 }
+.bg-dark{
+    background: #353534 !important;
+}

@@ -72,8 +72,8 @@ body{
     background-color: #F4B545;
     padding: 20px 7px 20px 7px;
     position: fixed;
-    top: 0;
-    border-radius: 0 0 6px 6px;
+    top: 10px;
+    border-radius: 1px !important;
 }
 
 .hero-section{
@@ -93,8 +93,12 @@ section{
 .bg-primary{
     background-color: #F4B545 !important;
 }
-
-
+.text-primary{
+    color: #F4B545 !important;
+}
+.bg-dark{
+    background-color: black !important;
+}
 .content-2,
 .content{
     /* position: absolute;
@@ -190,7 +194,88 @@ section{
 }
 footer{
     padding: 50px 0 !important;
+    background-color: #353534 !important;
 }
+
+
+.sustainability{
+    border-color: white !important;
+}
+
+
+.reasons {
+    padding: 80px 0px; }
+    @media only screen and (min-width: 1700px) {
+      .reasons {
+        padding: 100px 0px; } }
+    @media only screen and (max-width: 768px) {
+      .reasons {
+        padding: 60px 10px; } }
+    @media only screen and (max-width: 570px) {
+      .reasons {
+        padding: 60px 10px; } }
+  
+  .icon-72px {
+    height: 80px; }
+    @media only screen and (max-width: 768px) {
+      .icon-72px {
+        height: 60px; } }
+  
+  .scroll-card {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 46px 82px;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky; }
+    @media only screen and (max-width: 767px) {
+      .scroll-card {
+        padding: 30px 15px; } }
+  
+  .teams_card-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff; }
+    @media only screen and (max-width: 991px) {
+      .teams_card-heading {
+        font-size: 20px; } }
+    @media only screen and (max-width: 767px) {
+      .teams_card-heading {
+        font-size: 18px; } }
+  
+  .teams_body {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+    @media only screen and (max-width: 991px) {
+      .teams_body {
+        font-size: 14px; } }
+  
+
+  
+  .scroll-card._1 {
+    top: 100px;
+    width: 100% !important; 
+    min-height: 400px;
+}
+   
+  
+  .scroll-card._2 {
+    top: 120px;
+    width: 100% !important; }
+
+  
+  .scroll-card._3 {
+    width: 100% !important;
+    top: 150px; }
+
+ 
 
 @media only screen and (max-width:767px){
     .content-2{
