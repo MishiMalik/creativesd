@@ -1,37 +1,53 @@
 /* ++================================================================home */
 @font-face {
-    font-family: 'Indivisible';
-    src: url('assets/fonts/fonnts.com-Indivisible.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Indivisible-light';
+    src: url('/assets/fonts/fonnts.com-Indivisible_Light.woff') format('woff');
+    font-weight: 300;
 }
-
 @font-face {
+    font-family: 'Indivisible-semi';
+    src: url('/assets/fonts/fonnts.com-Indivisible_SemiBold.woff') format('woff');
+    font-weight: 600;
+} 
+/* @font-face {
     font-family: 'antonia-variable';
     src: url('assets/fonts/antonia-variable-2.otf') format('opentype');
     font-weight: normal;
-    font-style: italic;
-}
+} */
+@font-face {
+    font-family: 'Smoothy Slanted';
+    src: url('/assets/fonts/FontsFree-Net-Smoothy-Rsz-Slanted.ttf') format('woff');
+    font-weight: 600;
+} 
 body{
-    font-family: 'antonia-variable',sans-serif;
+    /* font-family: 'antonia-variable',sans-serif; */
+    /* font-family: "Indivisible-light",sans-serif; */
+}
+.smoothy-fonts{
+    font-family: 'Smoothy Slanted';
+    font-size: 60px;
+    color: rgb(61, 61, 61);
+    text-transform: uppercase;
+    transform:skewY(-10deg);
 }
 .nav-btn{
     height: 50px;
     width: 50px;
-    background-color: #F4B545;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+    /* background-color: #F4B545; */
+    /* border-radius: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items:center; */
     position: relative;
     /* border: 2px solid white; */
     cursor: pointer;
     /* z-index: 5; */
+
 }
 
 .nav-btn img{
-   height: 30px;
-   width: 30px;
+   height: 40px;
+   width: 50px;
 }
 .nav-menu{
     position: fixed;
@@ -63,13 +79,14 @@ body{
     text-align: left;
     color: white;
     font-size: 46px;
-    font-weight: 600;
+    font-weight: 600 !important;
     margin-bottom: 0px;
     /* display: none; */
     /* transition: all 1s; */
+    font-family: "Indivisible-semi",sans-serif;
 }
 .nav-logo-div{
-    background-color: #F4B545;
+    /* background-color: #F4B545; */
     padding: 20px 7px 20px 7px;
     position: fixed;
     top: 10px;
@@ -121,30 +138,35 @@ section{
 }
 
 .heading-primary{
-    font-family: 'Indivisible';
+    /* font-family: 'Indivisible-semi',sans-serif; */
+    /* font-family: 'Indivisible'; */
+    font-family: 'Indivisible-semi',sans-serif;
     font-size: 60px;
-    font-weight: 800;
+    /* font-weight:600; */
     color: #F4B545;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: 600 !important;
 }
 .heading-secondry{
-    font-family: 'Indivisible';
+    font-family: 'Indivisible-semi',sans-serif;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600 !important;
     color: #F4B545;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);  
 }
 .heading-tertiary{
-    font-family: 'Indivisible';
+    font-family: 'Indivisible-semi',sans-serif;
+    font-weight: 600 !important;
     font-size: 40px;
-    font-weight: 700;
     color: white;
     /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);   */
 }
-.hero-section h2{
-    font-family: 'antonia-variable',sans-serif;
+.hero-section p{
+    /* font-family: 'Indivisible-light',sans-serif; */
+    font-family: 'Indivisible-light',sans-serif;
+    font-weight: 300 !important;
     font-size: 30px;
-    font-weight: 500;
+   
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.87);
     color: white;
 }
@@ -186,11 +208,14 @@ section{
     color: rgb(27, 27, 27);
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Indivisible',sans-serif;
+    font-weight: 300 !important;
+    font-family: "Indivisible-light",sans-serif;
 }
 .sustainability,
 .compaign{
     border-radius:  7px 50px 7px 7px;
+        /* box-shadow:inset -20px 0 30px rgba(0, 0, 0, 0.3); Adjust shadow values as needed */
+
 }
 footer{
     padding: 50px 0 !important;
@@ -281,15 +306,18 @@ footer{
     .content-2{
         top: 600px;
     }
-    
+    .smoothy-fonts{
+        font-size: 40px;
+        text-align: center;
+    }
     .heading-primary{
         font-size: 40px;
     }
     .heading-secondry{
-        font-size: 30px;
+        font-size: 40px;
     }
     .heading-tertiary{
-        font-size: 30px;
+        font-size: 40px;
     }
     .hero-section h2{
         font-size: 20px;
