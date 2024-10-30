@@ -19,10 +19,7 @@
     src: url('/assets/fonts/FontsFree-Net-Smoothy-Rsz-Slanted.ttf') format('woff');
     font-weight: 600;
 } 
-body{
-    /* font-family: 'antonia-variable',sans-serif; */
-    /* font-family: "Indivisible-light",sans-serif; */
-}
+
 .smoothy-fonts{
     font-family: 'Smoothy Slanted';
     font-size: 60px;
