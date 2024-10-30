@@ -2,13 +2,22 @@
     --primary: #F4B545;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Indivisible';
     src: url('assets/fonts/fonnts.com-Indivisible.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
+} */
+@font-face {
+    font-family: 'Indivisible-light';
+    src: url('/assets/fonts/fonnts.com-Indivisible_Light.woff') format('woff');
+    font-weight: 300;
 }
-
+@font-face {
+    font-family: 'Indivisible-semi';
+    src: url('/assets/fonts/fonnts.com-Indivisible_SemiBold.woff') format('woff');
+    font-weight: 600;
+} 
 @font-face {
     font-family: 'antonia-variable';
     src: url('assets/fonts/antonia-variable-2.otf') format('opentype');
@@ -17,9 +26,7 @@
 }
 
 body {
-    /* font-family: "Poppins", sans-serif; */
-    /* font-family: "Nunito Sans", sans-serif; */
-    font-family: 'Indivisible', sans-serif;
+    font-family: 'Indivisible-semi',sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -88,11 +95,14 @@ body {
 .sidebar h2 {
     font-size: 18px;
     color: var(--primary);
+    font-family: 'Indivisible-semi',sans-serif;
+    font-weight: 600 !important;
 }
 
 .filter-list li {
     padding: 5px 0;
     text-align: center;
+    font-weight: 600 !important;
 }
 
 .filter-list li button {
@@ -100,7 +110,9 @@ body {
     border: none;
     border-radius: 0;
     font-size: 16px;
-    font-weight: 600
+    font-family: 'Indivisible-semi',sans-serif;
+    font-weight: 600 !important;
+    color: rgb(61,61,61);
 }
 
 .selected-tag {
@@ -176,14 +188,16 @@ body {
 
 .grid-text h2 {
     font-size: 16px;
-    font-weight: 500;
     color: white;
     text-transform: uppercase;
+    font-family: 'Indivisible-semi',sans-serif;
+    font-weight: 600 !important;
 }
 
 .grid-text h4 {
     font-size: 14px;
-    font-weight: 400;
+    font-family: 'Indivisible-semi',sans-serif;
+    font-weight: 300 !important;
     color: white;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -240,11 +254,17 @@ body {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
+    color: rgb(61,61,61);
+    font-family: 'Indivisible-semi',sans-serif;
+    font-weight: 600 !important;
 }
 
 .modal-title h4 {
     font-size: 20px;
     font-weight: 600;
+    color: rgb(61,61,61);
+    font-family: 'Indivisible-semi',sans-serif;
+    font-weight: 600 !important;
 }
 
 .btn-close {
@@ -257,13 +277,17 @@ body {
 }
 
 .btn-main {
-    background-color: black;
+    background-color: rgb(61,61,61) !important;
     border: none;
     border-radius: 3px;
     font-size: 16px;
     font-weight: 600;
     color: white;
     padding: 7px 10px;
+}
+.modal-body p{
+    font-weight: 300;
+    font-family: 'Indivisible-light',sans-serif;
 }
 
 .main-heading {
@@ -300,11 +324,15 @@ body {
 .modal-content-form {
     background-color: transparent !important;
 }
-
+.form-text{
+    font-weight: 300;
+    font-family: 'Indivisible-light',sans-serif;
+}
 .form-group label {
     font-size: 16px;
     color: white !important;
-    font-weight: 500;
+    font-weight: 300 !important;
+    font-family: 'Indivisible-light',sans-serif !important;
 }
 
 .form-group input {
@@ -421,7 +449,7 @@ body {
     }
 
     .btn-main {
-        background-color: black;
+        background-color: rgb(61,61,61) !important;
         border: none;
         border-radius: 3px;
         font-size: 14px;
